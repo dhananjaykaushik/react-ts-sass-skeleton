@@ -1,4 +1,4 @@
-import './styles.css'
+import './styles.sass'
 import IMAGE from './assets/logo512.png'
 
 export const App = () => {
