@@ -9,7 +9,9 @@ module.exports = {
         open: true,
         historyApiFallback: true,
     },
-
+    output: {
+        publicPath: '/',
+    },
     plugins: [
         new ReactRefreshWebpackPlugin(),
         new webpack.DefinePlugin({
